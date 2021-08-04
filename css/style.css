@@ -69,7 +69,7 @@ body {
 /* banner */
 
 .max-height {
-  min-height: calc(100vh - 76px);
+  min-height: calc(100vh - 1px);
   background: linear-gradient(rgb(0 123 255 / 50%), var(--yellowTrans)), url(../img/headerBcg.jpeg) center/cover fixed no-repeat;
   position: relative;
 }
@@ -81,7 +81,7 @@ body {
 
 .banner-title {
   color: var(--mainPink);
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .banner-link {
@@ -317,7 +317,7 @@ body {
 .navbar-brand {
   vertical-align: middle;
   border-style:none;
-  cursor: none;
+  cursor:default;
 }
 
 
