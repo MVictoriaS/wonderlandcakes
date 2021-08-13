@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- :root {
+:root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -388,38 +388,43 @@ h6 {
     margin-bottom: .5rem;
     font-family: inherit;
     font-weight: 500;
-    line-height: 1.2;
-    color: inherit
+    line-height: 1.3;
+    color: inherit;
 }
 
 .h1,
 h1 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
 }
 
 .h2,
 h2 {
-    font-size: 2rem
+    font-size: 2rem;
+    text-align: center;
 }
 
 .h3,
 h3 {
-    font-size: 1.75rem
+    font-size: 1.75rem;
+    text-align: center;
 }
 
 .h4,
 h4 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .h5,
 h5 {
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .h6,
 h6 {
-    font-size: 1rem
+    font-size: 1rem;
+    text-align: center;
 }
 
 .lead {
@@ -430,32 +435,32 @@ h6 {
 .display-1 {
     font-size: 6rem;
     font-weight: 300;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .display-2 {
     font-size: 5.5rem;
     font-weight: 300;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .display-3 {
     font-size: 4.5rem;
     font-weight: 300;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .display-4 {
     font-size: 3.5rem;
     font-weight: 300;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, .1)
+    border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 .small,
@@ -467,48 +472,48 @@ small {
 .mark,
 mark {
     padding: .2em;
-    background-color: #fcf8e3
+    background-color: #fcf8e3;
 }
 
 .list-unstyled {
     padding-left: 0;
-    list-style: none
+    list-style: none;
 }
 
 .list-inline {
     padding-left: 0;
-    list-style: none
+    list-style: none;
 }
 
 .list-inline-item {
-    display: inline-block
+    display: inline-block;
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: .5rem
+    margin-right: .5rem;
 }
 
 .initialism {
     font-size: 90%;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .blockquote {
     margin-bottom: 1rem;
-    font-size: 1.25rem
+    font-size: 1.25rem;
 }
 
 .blockquote-footer {
     display: block;
     font-size: 80%;
-    color: #6c757d
+    color: #6c757d;
 }
 
 .blockquote-footer::before {
-    content: "\2014 \00A0"
+    content: "\2014 \00A0";
 }
 
-#img-fluid {
+.img-fluid {
     max-width: 100%;
     height: auto;
     cursor: pointer;
@@ -520,31 +525,31 @@ mark {
     border: 1px solid #dee2e6;
     border-radius: .25rem;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .figure {
-    display: inline-block
+    display: inline-block;
 }
 
 .figure-img {
     margin-bottom: .5rem;
-    line-height: 1
+    line-height: 1;
 }
 
 .figure-caption {
     font-size: 90%;
-    color: #6c757d
+    color: #6c757d;
 }
 
 code {
     font-size: 87.5%;
     color: #e83e8c;
-    word-break: break-word
+    word-break: break-word;
 }
 
 a>code {
-    color: inherit
+    color: inherit;
 }
 
 kbd {
@@ -552,30 +557,30 @@ kbd {
     font-size: 87.5%;
     color: #fff;
     background-color: #212529;
-    border-radius: .2rem
+    border-radius: .2rem;
 }
 
 kbd kbd {
     padding: 0;
     font-size: 100%;
-    font-weight: 700
+    font-weight: 700;
 }
 
 pre {
     display: block;
     font-size: 87.5%;
-    color: #212529
+    color: #212529;
 }
 
 pre code {
     font-size: inherit;
     color: inherit;
-    word-break: normal
+    word-break: normal;
 }
 
 .pre-scrollable {
     max-height: 340px;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 
 .container {
@@ -583,30 +588,30 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 @media (min-width:576px) {
     .container {
-        max-width: 540px
+        max-width: 540px;
     }
 }
 
 @media (min-width:768px) {
     .container {
-        max-width: 720px
+        max-width: 720px;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        max-width: 960px
+        max-width: 960px;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        max-width: 1140px
+        max-width: 1140px;
     }
 }
 
@@ -615,7 +620,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .row {
@@ -624,18 +629,18 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .no-gutters {
     margin-right: 0;
-    margin-left: 0
+    margin-left: 0;
 }
 
 .no-gutters>.col,
 .no-gutters>[class*=col-] {
     padding-right: 0;
-    padding-left: 0
+    padding-left: 0;
 }
 
 .col,
@@ -712,7 +717,7 @@ pre code {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
 }
 
 .col {
@@ -720,44 +725,44 @@ pre code {
     flex-basis: 0;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .col-auto {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: auto;
-    max-width: none
+    max-width: none;
 }
 
 .col-1 {
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
-    max-width: 8.333333%
+    max-width: 8.333333%;
 }
 
 .col-2 {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
-    max-width: 16.666667%
+    max-width: 16.666667%;
 }
 
 .col-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
-    max-width: 25%
+    max-width: 25%;
 }
 
 .col-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
-    max-width: 33.333333%
+    max-width: 33.333333%;
 }
 
 .col-5 {
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
-    max-width: 41.666667%
+    max-width: 41.666667%;
 }
 
 .col-6 {
@@ -4320,7 +4325,7 @@ input[type=submit].btn-block {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .5rem 1rem
+    padding: 1rem 1rem;
 }
 
 .navbar>.container,

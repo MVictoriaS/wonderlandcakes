@@ -306,7 +306,7 @@ body {
 
 .card-img-top {
   height: 20rem;
-  border-radius: 1rem;
+  border-radius: 0rem;
 }
 
 .card:hover {
