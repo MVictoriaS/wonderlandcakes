@@ -190,7 +190,7 @@ body {
 }
 
 .store-item-value {
-  color: --mainYellow;
+  color: var(--mainYellow);
 }
 
 .search-box {
