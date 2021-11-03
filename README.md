@@ -1,2 +1,1 @@
-# Project_Grocery_Cart
-Wiring up a cart for a ecommerce website
+# This is a Web Site I developed with Bootstrap for a young Argentinian entrepreneur!
